@@ -7,7 +7,7 @@ class Circle(Shape):
         """
         Constructs a Circle object
 
-        :param c: float -> radius of circle
+        :param r: float -> radius of circle
         """
         self.check_if_args_not_below_zero(r)
         self.r = r
@@ -16,7 +16,7 @@ class Circle(Shape):
         """
         Calculates Circle area using formula (pi)(r ** 2)
         
-        :return: float -> area of triangle
+        :return: float -> area of circle
         """
         return (math.pi * (self.r ** 2))
 
