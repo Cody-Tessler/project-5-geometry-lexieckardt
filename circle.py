@@ -24,7 +24,7 @@ class Circle(Shape):
         """
         Calculates Circle perimeter using formula 2(pi)(r)
         
-        :return: float -> perimeter of triangle
+        :return: float -> perimeter of circle
         """
         return (2 * math.pi * self.r)
 
