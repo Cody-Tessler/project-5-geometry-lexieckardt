@@ -1,4 +1,5 @@
 from shape import Shape
+import math
 
 class Circle(Shape):
 
@@ -17,7 +18,7 @@ class Circle(Shape):
         
         :return: float -> area of triangle
         """
-        return math.pi * (self.r ** 2)
+        return (math.pi * (self.r ** 2))
 
     def get_perimeter(self):
         """
@@ -25,7 +26,7 @@ class Circle(Shape):
         
         :return: float -> perimeter of triangle
         """
-        return 2 * math.pi * self.r
+        return (2 * math.pi * self.r)
 
     def __str__(self):
         return f"Circle,  r={self.r} "
